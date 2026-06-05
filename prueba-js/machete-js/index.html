@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machete SPA</title>
+</head>
+<body>
+
+  <!--
+    Este es el ÚNICO div que existe.
+    Todo el HTML de la app se pinta aquí dinámicamente con JavaScript.
+    El router lee el hash y llama a la función de renderizado correcta.
+  -->
+  <div id="app"></div>
+
+  <!--
+    type="module" es OBLIGATORIO para usar import/export en el browser.
+    Sin esto, los import de main.js darían error.
+  -->
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>

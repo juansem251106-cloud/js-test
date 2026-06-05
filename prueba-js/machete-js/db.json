@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Admin",
+      "email": "admin@mail.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Ana Coder",
+      "email": "coder@mail.com",
+      "password": "1234",
+      "role": "coder"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Diseñar el login",
+      "status": "done",
+      "assignedTo": 2
+    },
+    {
+      "id": 2,
+      "title": "Conectar con la API",
+      "status": "in-progress",
+      "assignedTo": 2
+    },
+    {
+      "id": 3,
+      "title": "Revisar permisos",
+      "status": "todo",
+      "assignedTo": 1
+    }
+  ]
+}

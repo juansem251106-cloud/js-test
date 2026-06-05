@@ -1,0 +1,16 @@
+{
+  "name": "machete-spa",
+  "version": "1.0.0",
+  "description": "Machete de referencia: SPA + CRUD + API + Sesión + Roles + Módulos",
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch db.json --port 3000",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
